@@ -1,0 +1,48 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Tênis de Corrida",
+        "marca": "Nike",
+        "preco": 299.99,
+        "tamanhos_disponiveis": [38, 39, 40, 41, 42],
+        "cores_disponiveis": ["preto", "branco", "azul"],
+        "descricao": "Tênis leve e confortável para corridas de longa distância.",
+        "imagem_url": "https://exemplo.com/imagens/tenis_corrida.jpg",
+        "em_estoque": true
+      },
+      {
+        "id": 2,
+        "nome": "Tênis Casual",
+        "marca": "Adidas",
+        "preco": 199.99,
+        "tamanhos_disponiveis": [36, 37, 38, 39, 40],
+        "cores_disponiveis": ["vermelho", "cinza", "branco"],
+        "descricao": "Tênis casual para uso diário, combina com qualquer estilo.",
+        "imagem_url": "https://exemplo.com/imagens/tenis_casual.jpg",
+        "em_estoque": true
+      }
+    ],
+    "usuarios": [
+        {
+            "id":1,
+            "nome":"João",
+            "email":"joao@gmail.com"
+        },
+        {
+            "id":2,
+            "nome":"Maria",
+            "email":"maria@gmail.com"
+        }
+    ],
+    "carrinhos": [
+        {
+            "id":1,
+            "usuario_id":1,
+            "produtos":[
+                
+            ]
+        }
+    ]
+  }
+  
